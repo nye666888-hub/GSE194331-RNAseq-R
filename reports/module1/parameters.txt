@@ -1,0 +1,12 @@
+seed: 194331
+input_scale: UNKNOWN; normalized-continuous candidate only
+normalization: NONE
+additional_gene_filtering: NONE
+sample_exclusion: NONE
+PCA: supplied-scale, all nonconstant genes, center=TRUE, scale.=FALSE, rank.=10
+correlation: Pearson and Spearman across all supplied genes
+distance: Euclidean on supplied-scale expression; 1-Spearman secondary
+plots: log10(value+1) axis presentation only for nonnegative distribution summaries
+outlier_review: within-group median correlation < median-3*MAD OR within-group PCA distance > median+3*MAD
+DEG description if unblocked: BH padj<0.05 AND abs(estimated log2FC)>1; NOT lfcThreshold testing
+formal_DE_and_severity: BLOCKED, no valid scale/provenance established

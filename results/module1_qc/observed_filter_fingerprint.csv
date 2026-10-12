@@ -1,0 +1,2 @@
+"rule","n_unique_genes_retained","existing_gene_count","n_existing_genes_retained","n_not_in_existing","n_existing_not_retained","exact_set_match","expression_units"
+"mean expression >= 0.1 in uploaded source",19645,19645,19645,0,0,TRUE,"unknown; threshold fingerprint is empirically exact, biological meaning unvalidated"

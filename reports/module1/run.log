@@ -1,0 +1,95 @@
+UTC start: 20261012T120427Z
+GitHub source archive: 94abd7389e06991243a8c467c0dcedab5e0ea40f
+Inventory: 68 entries; no traversal errors.
+Imported source rows: 10000
+Imported source rows: 20000
+Imported source rows: 30000
+Imported 39376 genes, 119 samples. Source units remain unknown.
+          used (Mb) gc trigger (Mb) max used (Mb)
+Ncells  893669 47.8    1639454 87.6  1457362 77.9
+Vcells 3890375 29.7   10146329 77.5  8386642 64.0
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  954205 51.0    1639454  87.6  1639454  87.6
+Vcells 4146958 31.7   28227569 215.4 34989969 267.0
+MODULE1_AUDIT_QC_COMPLETE: 19645 genes; 119 samples; 20 descriptive review flags. FORMAL_ANALYSIS_BLOCKED.
+Maximum candidate-to-existing absolute difference: 4.511e-10 
+                                                       candidate n_samples
+ log2_source_plus_1_then_quantile_normalize_on_existing_gene_set       119
+    quantile_normalize_untransformed_source_on_existing_gene_set       119
+                                       source_values_vs_existing       119
+ median_pearson min_pearson median_spearman min_spearman  median_RMSE
+      0.1349635   0.1348828       0.1349635    0.1348828 1.194510e+03
+      1.0000000   1.0000000       1.0000000    1.0000000 3.258795e-12
+      0.9907554   0.7219058       0.9907554    0.7219058 5.092257e+02
+   median_MAE median_max_abs_difference maximum_max_abs_difference median_slope
+ 2.791198e+01              1.306124e+05               1.306124e+05    89.384442
+ 4.360432e-14              4.511094e-10               4.511094e-10     1.000000
+ 8.308362e+00              5.746916e+04               3.008708e+05     1.110113
+ median_intercept
+    -1.484720e+02
+    -4.023239e-14
+    -1.928430e+00
+                             rule n_samples n_genes_retained
+   expression > 0 in >= 1 samples         1            33700
+   expression > 0 in >= 2 samples         2            31724
+   expression > 0 in >= 6 samples         6            28391
+  expression > 0 in >= 12 samples        12            26460
+  expression > 0 in >= 30 samples        30            23799
+  expression > 0 in >= 60 samples        60            21224
+  expression > 0 in >= 96 samples        96            18214
+ expression > 0 in >= 119 samples       119            13303
+             mean expression >= 0        NA            39374
+          mean expression >= 0.01        NA            25920
+           mean expression >= 0.1        NA            19645
+             mean expression >= 1        NA            12575
+            mean expression >= 10        NA             3892
+ overlap_with_existing                                      threshold_units
+                 19645 positive-value prevalence only; source units unknown
+                 19645 positive-value prevalence only; source units unknown
+                 19637 positive-value prevalence only; source units unknown
+                 19582 positive-value prevalence only; source units unknown
+                 19250 positive-value prevalence only; source units unknown
+                 18756 positive-value prevalence only; source units unknown
+                 17437 positive-value prevalence only; source units unknown
+                 13284 positive-value prevalence only; source units unknown
+                 19645   absolute mean is scale-dependent; sensitivity only
+                 19645   absolute mean is scale-dependent; sensitivity only
+                 19645   absolute mean is scale-dependent; sensitivity only
+                 12575   absolute mean is scale-dependent; sensitivity only
+                  3892   absolute mean is scale-dependent; sensitivity only
+Uploaded source: 39376 rows x 119 samples; 3 rows have duplicated identifiers (2 duplicated ID groups).
+Existing normalized file: 19645 rows x 119 samples.
+Sample columns match exactly: TRUE. Existing target genes found in uploaded source: 19645/19645.
+Filter comparison uses the existing matrix feature set only; it reproduces its filtering set and is not an independently chosen expression filter.
+Mean expression >= 0.1 retains 19645 unique genes and exactly matches the existing gene set (TRUE); this is an empirical filter fingerprint, not confirmation of units or biological rationale.
+Positive-prevalence and other absolute-mean filter profiles are sensitivities because source units are unknown.
+Candidate A quantile normalizes the unchanged uploaded values on the common, existing-filter gene set.
+Candidate B applies log2(x+1), then quantile normalization, solely as a scale-dependent sensitivity; it is not endorsed absent source units.
+Outputs are candidate reprocessing comparisons, not raw counts, a DESeq2 input, or a substitute for provenance. 
+EXPLORATORY_LIMMA_COMPLETE; log2(QN+1), five contrasts; 19,645 genes; severity ordinal plus categorical sensitivity.
+        comparison      contrast                 role n_case n_reference
+        A_AP_vs_HC      AP vs HC              primary     87          32
+     B_MSAP_vs_MAP   MSAP vs MAP              primary     20          57
+      C_SAP_vs_MAP    SAP vs MAP              primary     10          57
+     D_SAP_vs_MSAP   SAP vs MSAP          exploratory     10          20
+ E_MSAP_SAP_vs_MAP severe vs MAP severity_sensitivity     30          57
+ genes_total genes_tested genes_padj_lt_0_05 descriptive_DEG_up
+       19645        19645              10868                112
+       19645        19645                  0                  0
+       19645        19645               3266                122
+       19645        19645                  0                  0
+       19645        19645               2927                 21
+ descriptive_DEG_down                       DEG_rule
+                   92 BH padj<0.05 and abs(log2FC)>1
+                    0 BH padj<0.05 and abs(log2FC)>1
+                   74 BH padj<0.05 and abs(log2FC)>1
+                    0 BH padj<0.05 and abs(log2FC)>1
+                    8 BH padj<0.05 and abs(log2FC)>1
+                         logFC_null_test
+ eBayes H0=0; no treat/lfcThreshold test
+ eBayes H0=0; no treat/lfcThreshold test
+ eBayes H0=0; no treat/lfcThreshold test
+ eBayes H0=0; no treat/lfcThreshold test
+ eBayes H0=0; no treat/lfcThreshold test
+Severity ordinal BH<0.05: 3998 ; category global BH<0.05: 2343 
+Updated module 1 status and reports from generated limma and severity tables.

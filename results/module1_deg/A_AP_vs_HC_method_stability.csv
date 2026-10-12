@@ -1,0 +1,8 @@
+"metric","value"
+"logFC_pearson",1
+"logFC_spearman",1
+"same_direction_fraction",1
+"standard_DEG_count",204
+"trend_DEG_count",204
+"DEG_intersection",204
+"DEG_union",204

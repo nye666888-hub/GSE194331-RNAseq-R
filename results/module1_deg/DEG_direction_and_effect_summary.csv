@@ -1,0 +1,6 @@
+"comparison","contrast","role","n_case","n_reference","genes_total","genes_tested","genes_padj_lt_0_05","descriptive_DEG_up","descriptive_DEG_down","DEG_rule","logFC_null_test"
+"A_AP_vs_HC","AP vs HC","primary",87,32,19645,19645,10868,112,92,"BH padj<0.05 and abs(log2FC)>1","eBayes H0=0; no treat/lfcThreshold test"
+"B_MSAP_vs_MAP","MSAP vs MAP","primary",20,57,19645,19645,0,0,0,"BH padj<0.05 and abs(log2FC)>1","eBayes H0=0; no treat/lfcThreshold test"
+"C_SAP_vs_MAP","SAP vs MAP","primary",10,57,19645,19645,3266,122,74,"BH padj<0.05 and abs(log2FC)>1","eBayes H0=0; no treat/lfcThreshold test"
+"D_SAP_vs_MSAP","SAP vs MSAP","exploratory",10,20,19645,19645,0,0,0,"BH padj<0.05 and abs(log2FC)>1","eBayes H0=0; no treat/lfcThreshold test"
+"E_MSAP_SAP_vs_MAP","severe vs MAP","severity_sensitivity",30,57,19645,19645,2927,21,8,"BH padj<0.05 and abs(log2FC)>1","eBayes H0=0; no treat/lfcThreshold test"
