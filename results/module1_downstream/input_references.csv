@@ -1,0 +1,10 @@
+item,path,status
+supplied_expression_matrix,/workspace/GSE194331-RNAseq-R/GSE示例_归一后.zip::GSE示例_归一后.csv,available; unlogged quantile-normalized; source units unknown; used only after explicit exploratory log2(value+1) assumption
+sample_metadata,/workspace/GSE194331-RNAseq-R/results/module1_downstream/sample_metadata_verified.csv,ID matched; H->HC mapped per explicit cohort definition
+raw_counts,,NOT_FOUND; DESeq2/voom not run
+validated_transformed_matrix,,NOT_VALIDATED; exploratory log2(QN+1) matrix exported with scale caveat
+GSEA_ranked_lists,,EXPLORATORY_MODERATED_T_RANKS_EXPORTED; all tested genes; scale assumption applies
+DE_results,,EXPLORATORY_LIMMA_COMPLETE; not confirmatory because source units unknown
+gene_symbol_mapping,/workspace/GSE194331-RNAseq-R/results/module1_downstream/gene_id_symbol_mapping.csv,UNVERIFIED_IDENTITY_ONLY
+filtered_continuous_source_candidate,/workspace/GSE194331-RNAseq-R/results/module1_downstream/candidate_filtered_source_mean_ge_0.1.tsv.gz,available; mean>=0.1 exactly fingerprints existing filter; units unknown; not counts
+quantile_normalized_reproduction_candidate,/workspace/GSE194331-RNAseq-R/results/module1_downstream/candidate_filtered_quantile_normalized.tsv.gz,available; reproduces existing matrix; max_abs_diff=4.51e-10; unlogged source units unknown

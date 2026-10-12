@@ -1,0 +1,5 @@
+"group","original_label","expected","observed","match"
+"HC","H",32,32,TRUE
+"MAP","MAP",57,57,TRUE
+"MSAP","MSAP",20,20,TRUE
+"SAP","SAP",10,10,TRUE

@@ -1,0 +1,12 @@
+# Recommended designs — conditional, NOT fitted
+- Available metadata contains only sample ID and group. No age, sex, batch or donor identifiers are available; do not invent covariates.
+- Candidate primary common category model: ~0 + group (limma) / ~group (DESeq2), HC reference. Four nonempty groups; rank 4/4; 115 residual degrees of freedom.
+- For B, C and exploratory D, use category contrasts MSAP-MAP, SAP-MAP and SAP-MSAP.
+- Candidate A and E common-model contrasts are sample-size-weighted category effects (weights 57/87,20/87,10/87; and 20/30,10/30). On a log scale they estimate differences of weighted mean log expression, NOT log2 ratios of pooled arithmetic expression means.
+- For conventional collapsed AP vs HC and (MSAP+SAP) vs MAP estimands, fit separately pre-specified group-only binary models (~AP_status on 119; ~severe_status on 87 AP). Report those as primary A/E and weighted four-category contrasts as sensitivity; do not silently equate the two estimands. No models were fitted in this run.
+- AP trend candidate: MAP=1, MSAP=2, SAP=3, ~severity_code, rank 2/2, residual df 85. One-step coefficient is an ordinal score association, not evidence of linear biological dose response.
+- AP category sensitivity: ~group, MAP reference, rank 3/3, df 84; global two-degree-of-freedom LRT (DESeq2) or moderated F test (limma), plus adjacent B/D contrasts.
+- Raw-count provenance is required before DESeq2; noninteger supplied values cannot be rounded into counts. Limma-voom also requires legitimate counts and library sizes.
+- Continuous data require documented normalization and scale before any limma transformation or model. TPM/FPKM/CPM, normalized counts and already logged values are not interchangeable.
+- Local metadata label H maps to HC under your explicit cohort definition (HC n=32). No group assignment was inferred from expression.
+- Algebraic estimability does not establish lack of batch confounding. With absent covariates and blocked independent GEO access, confounding cannot be assessed.

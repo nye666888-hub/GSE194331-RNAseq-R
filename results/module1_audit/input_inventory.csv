@@ -1,0 +1,69 @@
+file_path,type,size_bytes,purpose,inferred_expression_scale,sha256,scope
+/workspace/.agents,excluded_directory,0,"Runtime/cache, protected configuration or current module output; not independent source data",not_applicable,,workspace_file
+/workspace/.git,excluded_directory,0,"Runtime/cache, protected configuration or current module output; not independent source data",not_applicable,,workspace_file
+/workspace/.codex,excluded_directory,0,"Runtime/cache, protected configuration or current module output; not independent source data",not_applicable,,workspace_file
+/workspace/.aws,excluded_directory,0,"Runtime/cache, protected configuration or current module output; not independent source data",not_applicable,,workspace_file
+/workspace/GSE194331-RNAseq-R/.git,excluded_directory,0,"Runtime/cache, protected configuration or current module output; not independent source data",not_applicable,,workspace_file
+/workspace/GSE194331-RNAseq-R/results,excluded_directory,0,"Runtime/cache, protected configuration or current module output; not independent source data",not_applicable,,workspace_file
+/workspace/GSE194331-RNAseq-R/reports,excluded_directory,0,"Runtime/cache, protected configuration or current module output; not independent source data",not_applicable,,workspace_file
+/workspace/GSE194331-RNAseq-R/cache,excluded_directory,0,"Runtime/cache, protected configuration or current module output; not independent source data",not_applicable,,workspace_file
+/workspace/GSE194331-RNAseq-R/.gitignore,other,676,"Documentation, helper, or unrelated file",not_applicable,abf742d72452cc1373c4fb869e84afb2bf836828cb89a7d7d8cf879451e8e9c8,workspace_file
+/workspace/GSE194331-RNAseq-R/GSE示例_归一后.zip,expression_candidate,11134146,Existing expression input,unknown_continuous_normalized_candidate,feb7de7fb046f782b3d9a9c4e1e80677269b154e2d956c89e485d9390a0edb7c,workspace_file
+/workspace/GSE194331-RNAseq-R/GSE示例_归一后.zip::GSE示例_归一后.csv,archive_member_expression_candidate,40497870,Existing expression input,unknown_continuous_normalized_candidate,,zip_member
+/workspace/GSE194331-RNAseq-R/README.md,other,20,"Documentation, helper, or unrelated file",not_applicable,d44666c7f189bd4c5cfbdd719814cfc95c07d67913351e21e4d6c3f2368590be,workspace_file
+/workspace/GSE194331-RNAseq-R/轻中重分组.csv,sample_metadata,1870,Local sample grouping authority,not_applicable,e7aaaed6ca6c653a3cac91180f57f75602554dc888e09daea172b585a8348c68,workspace_file
+/workspace/GSE194331-RNAseq-R/data/module1_inputs/GSE194331.rar,uploaded_original_archive,25224288,Newly uploaded archive; see original_source_provenance.json and original_source_matrix_audit.csv,unknown_continuous_source,,workspace_file
+/workspace/GSE194331-RNAseq-R/data/module1_inputs/extracted/GSE194331.csv,ooxml_workbook_mislabeled_csv,27590460,Actual OOXML workbook imported from GSE194331.rar; see original_source_provenance.json,unknown_continuous_source,,workspace_file
+/workspace/GSE194331-RNAseq-R/data/module1_inputs/derived/GSE194331_original_values.tsv.gz,derived_original_upload_values,7233553,Lossless numeric-cell export of uploaded workbook; no scale transformation,unknown_continuous_source,,workspace_file
+/workspace/GSE194331-RNAseq-R/scripts/module1/compare_existing_normalization.R,script,15668,"Inspect provenance; cloud-setup scripts are prior onboarding QC, not original processing",not_applicable,,workspace_file
+/workspace/GSE194331-RNAseq-R/scripts/module1/finalize_limma_reports.py,script,13380,"Inspect provenance; cloud-setup scripts are prior onboarding QC, not original processing",not_applicable,,workspace_file
+/workspace/GSE194331-RNAseq-R/scripts/module1/finalize_manifest.py,script,2105,"Inspect provenance; cloud-setup scripts are prior onboarding QC, not original processing",not_applicable,,workspace_file
+/workspace/GSE194331-RNAseq-R/scripts/module1/import_original.py,script,4218,"Inspect provenance; cloud-setup scripts are prior onboarding QC, not original processing",not_applicable,,workspace_file
+/workspace/GSE194331-RNAseq-R/scripts/module1/inventory.py,script,4832,"Inspect provenance; cloud-setup scripts are prior onboarding QC, not original processing",not_applicable,,workspace_file
+/workspace/GSE194331-RNAseq-R/scripts/module1/run_limma_analysis.R,script,12905,"Inspect provenance; cloud-setup scripts are prior onboarding QC, not original processing",not_applicable,,workspace_file
+/workspace/GSE194331-RNAseq-R/scripts/module1/run_module1.R,script,37547,"Inspect provenance; cloud-setup scripts are prior onboarding QC, not original processing",not_applicable,,workspace_file
+/workspace/GSE194331-RNAseq-R/scripts/module1/run_module1.sh,script,1456,"Inspect provenance; cloud-setup scripts are prior onboarding QC, not original processing",not_applicable,,workspace_file
+/workspace/cloud-setup/cache,excluded_directory,0,"Runtime/cache, protected configuration or current module output; not independent source data",not_applicable,,workspace_file
+/workspace/cloud-setup/mamba,excluded_directory,0,"Runtime/cache, protected configuration or current module output; not independent source data",not_applicable,,workspace_file
+/workspace/cloud-setup/r-env,excluded_directory,0,"Runtime/cache, protected configuration or current module output; not independent source data",not_applicable,,workspace_file
+/workspace/cloud-setup/install.sh,script,2751,"Inspect provenance; cloud-setup scripts are prior onboarding QC, not original processing",not_applicable,,workspace_file
+/workspace/cloud-setup/r-linux-64.explicit.txt,tabular_or_archive_candidate,9217,Potential data or runtime specification,unknown,,workspace_file
+/workspace/cloud-setup/validate.R,script,1450,"Inspect provenance; cloud-setup scripts are prior onboarding QC, not original processing",not_applicable,,workspace_file
+/workspace/cloud-setup/bin/micromamba,other,18292808,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/results/heatmap.pdf,other,27894,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/results/pca.csv,tabular_or_archive_candidate,5907,Potential data or runtime specification,unknown,,workspace_file
+/workspace/cloud-setup/results/pca.png,other,95895,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/logs/module1_20261012T114018Z.log,other,463,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/logs/module1_20261012T114027Z.log,other,723,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/logs/module1_20261012T114057Z.log,other,859,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/logs/module1_20261012T114136Z.log,other,1125,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/logs/module1_20261012T114358Z.log,other,4969,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/logs/module1_20261012T114518Z.log,other,5138,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/logs/module1_20261012T114736Z.log,other,1059,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/logs/module1_20261012T114856Z.log,other,4967,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/logs/module1_20261012T115039Z.log,other,4967,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/logs/module1_20261012T115155Z.log,other,4967,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/logs/module1_20261012T120427Z.log,other,92,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive_c-5.3.dist-info/INSTALLER,other,4,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive_c-5.3.dist-info/METADATA,other,5829,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive_c-5.3.dist-info/RECORD,other,1610,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive_c-5.3.dist-info/REQUESTED,other,0,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive_c-5.3.dist-info/WHEEL,other,91,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive_c-5.3.dist-info/top_level.txt,tabular_or_archive_candidate,11,Potential data or runtime specification,unknown,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive_c-5.3.dist-info/licenses/LICENSE.md,other,51,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive/__init__.py,script,601,"Inspect provenance; cloud-setup scripts are prior onboarding QC, not original processing",not_applicable,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive/entry.py,script,17169,"Inspect provenance; cloud-setup scripts are prior onboarding QC, not original processing",not_applicable,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive/exception.py,script,370,"Inspect provenance; cloud-setup scripts are prior onboarding QC, not original processing",not_applicable,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive/extract.py,script,2694,"Inspect provenance; cloud-setup scripts are prior onboarding QC, not original processing",not_applicable,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive/ffi.py,script,14147,"Inspect provenance; cloud-setup scripts are prior onboarding QC, not original processing",not_applicable,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive/flags.py,script,211,"Inspect provenance; cloud-setup scripts are prior onboarding QC, not original processing",not_applicable,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive/read.py,script,5923,"Inspect provenance; cloud-setup scripts are prior onboarding QC, not original processing",not_applicable,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive/write.py,script,11017,"Inspect provenance; cloud-setup scripts are prior onboarding QC, not original processing",not_applicable,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive/__pycache__/__init__.cpython-312.pyc,other,830,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive/__pycache__/entry.cpython-312.pyc,other,27654,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive/__pycache__/exception.cpython-312.pyc,other,916,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive/__pycache__/extract.cpython-312.pyc,other,3690,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive/__pycache__/ffi.cpython-312.pyc,other,15397,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive/__pycache__/flags.cpython-312.pyc,other,408,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive/__pycache__/read.cpython-312.pyc,other,8524,"Documentation, helper, or unrelated file",not_applicable,,workspace_file
+/workspace/cloud-setup/python-module1/libarchive/__pycache__/write.cpython-312.pyc,other,13074,"Documentation, helper, or unrelated file",not_applicable,,workspace_file

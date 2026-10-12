@@ -1,0 +1,26 @@
+{
+  "source_archive": "/workspace/GSE194331-RNAseq-R/data/module1_inputs/GSE194331.rar",
+  "source_sha256": "7b4923b57c556300fa7510c78fa6a5a56ad7447f35b66829077133f84dfa8d70",
+  "archive_members": [
+    {
+      "name": "GSE194331.csv",
+      "size_bytes": 27590460
+    }
+  ],
+  "archive_source": "origin GitHub commit 94abd7389e06991243a8c467c0dcedab5e0ea40f, GSE194331.rar",
+  "extraction_file": "/workspace/GSE194331-RNAseq-R/data/module1_inputs/extracted/GSE194331.csv",
+  "extracted_sha256": "fce492b841994ea1122eb93f87f9b2b449b4a8a1ee653daa46a5d85a0b0b1496",
+  "actual_format": "OOXML Excel workbook despite .csv extension",
+  "derived_file": "/workspace/GSE194331-RNAseq-R/data/module1_inputs/derived/GSE194331_original_values.tsv.gz",
+  "n_genes": 39376,
+  "n_samples": 119,
+  "gene_id_python_types": [
+    "str"
+  ],
+  "import_method": "openpyxl read_only=True, data_only=True; unchanged numeric cell values; no rounding/filtering/normalization",
+  "expression_scale": "UNKNOWN_CONTINUOUS_SOURCE; original upload does not establish raw-count provenance",
+  "library_versions": {
+    "openpyxl": "3.1.5",
+    "libarchive_c": "5.3"
+  }
+}

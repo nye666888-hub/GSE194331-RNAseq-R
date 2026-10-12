@@ -1,0 +1,17 @@
+{
+  "root": "/workspace",
+  "errors": [],
+  "excluded_runtime_directories": [
+    ".git",
+    "cache",
+    "mamba",
+    "node_modules",
+    "r-env"
+  ],
+  "excluded_protected_directories": [
+    ".agents",
+    ".aws",
+    ".codex"
+  ],
+  "notes": "Current-module outputs excluded. Prior cloud-setup/results included but are not independent preprocessing evidence."
+}

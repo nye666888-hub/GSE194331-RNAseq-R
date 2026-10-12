@@ -1,0 +1,4 @@
+"model","n_samples","n_coefficients","rank","residual_df","status"
+"four_category_group_only",119,4,4,115,"algebraically_estimable; biological/input validity NOT established"
+"AP_only_ordered_1_2_3",87,2,2,85,"algebraically_estimable; biological/input validity NOT established"
+"AP_only_category",87,3,3,84,"algebraically_estimable; biological/input validity NOT established"
